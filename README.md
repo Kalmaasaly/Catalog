@@ -1,1 +1,1 @@
-# Catalog is ASP.NET Core
+# Catalog is ASP.NET Core Project
