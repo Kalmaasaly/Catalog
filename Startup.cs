@@ -60,8 +60,11 @@ namespace Catalog
                 app.UseDeveloperExceptionPage();
 
             }
-
-            app.UseHttpsRedirection();
+              if (env.IsDevelopment())
+              {
+                  app.UseHttpsRedirection();
+              }
+            
 
             app.UseRouting();
 
