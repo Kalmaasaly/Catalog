@@ -1,7 +1,7 @@
 using Catalog.Dtos;
 using Catalog.Entities;
 
-namespace Catalog.Mapper
+namespace Catalog.Extension
 {
 
   public static class Mapper

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Catalog.Dtos;
 using Catalog.Entities;
-using Catalog.Mapper;
+using Catalog.Extension;
 using Catalog.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
