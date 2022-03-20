@@ -1,4 +1,4 @@
-# Catalog is ASP.NET Core Project
+Catalog is ASP.NET Core Project with Docker and mongoDB
 
 docker build -t catelog:v1 .
 
