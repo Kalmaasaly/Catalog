@@ -11,3 +11,5 @@ docker run --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db --network=ne
 docker run -it --rm -p 8080:80 -e MongoDbSettigs:Host=mongo --network=netCatalogApp catalog:v1 mongo
 
 docker push {your account in docker}/catalog:v1
+
+docker pull kalmaasali/catalog
